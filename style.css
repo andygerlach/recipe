@@ -1,0 +1,136 @@
+* body html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(30, 54%, 90%);
+    display: flex;
+    justify-content: center;
+}
+
+.young-serif-regular {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1, h2, h3 {
+    font-family: "Young Serif", serif;
+    color: hsl(14, 45%, 36%);    
+}
+
+p, ul, ol {
+    font-family: "outfit", sans-serif;
+    list-style-position: inside;
+    padding-left: 0;
+}
+
+
+.title {
+    margin-left: 5%;
+    color: hsl(30, 10%, 34%)
+}
+
+#title {
+    color:black;
+}
+
+img {
+    object-fit: cover;
+    width: 90%;
+    height: 90%;
+    display: flex;
+    border-radius: 15px;
+    align-self: center;
+    justify-self: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: left;
+}
+
+.prep {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(330, 100%, 98%);
+    width: 90%;
+    align-self: center;
+    border-radius: 15px;
+    text-justify: left;
+    line-height: 2em;
+    color: hsl(30, 10%, 34%);
+}
+
+.prep ul {
+    padding-left: 2em;
+}
+
+.prep h3{
+    font-family: "outfit", sans-serif;
+    color: hsl(332, 51%, 32%);
+}
+
+#title {
+    font-size: 38px;
+}
+
+.ingredients, .instructions, .nutrition {
+    line-height: 2em;
+    border-bottom: solid;
+    border-width: thin;
+    border-color: hsl(30, 18%, 87%);
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    align-self: center;
+    color: hsl(30, 10%, 34%);
+}
+
+ol li::marker {
+   color: hsl(14, 45%, 36%);
+   font-weight: bold;
+   font-family: "outfit", sans-serif;
+}
+
+.nutrition {
+    display: flex;
+    color: hsl(30, 10%, 34%);
+     padding-bottom: 20px;
+}
+
+.nutrition h2 {
+    margin-bottom: 0;
+}
+
+.nutrition table {
+    border-collapse: collapse;
+    font-family: "outfit", sans-serif;
+}
+
+.nutrition td, th {
+    border-bottom: solid;
+    border-width: 2px;
+    border-color: hsl(30, 18%, 87%);
+}
+
+.nutrition th {
+    padding-left: 2em;
+    font-weight: 400;
+    color: hsl(30, 10%, 34%)
+}
+
+.nutrition td {
+    color: hsl(14, 45%, 36%);
+    font-weight: 800;
+}
